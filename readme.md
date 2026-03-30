@@ -51,7 +51,8 @@ pip install ipykernel
 We wanted to access the raw photon arrival information from `.lif` files.
 
 After manually exporting `.ptu` files from LAS X, this information is easily available,
-see `read_ptu.py`.
+see `read_ptu.py`. (To export in LAS X, use the FLIM/FCS package, and there opt for
+right top menu, file > export raw data.)
 
 However, neither `liffile`, `bioformats` or `readlif` can access time trace 
 information for every pixel, ie (t, c, x, y) array format (t=time bin, c=channel,
