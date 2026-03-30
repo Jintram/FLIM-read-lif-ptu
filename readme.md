@@ -20,7 +20,7 @@ python -m pip install -U "ptufile[all]"
 pip install liffile
 ```
 
-### Second environment, that handles bioformats
+### Environment 2, that handles bioformats
 
 This cannot be combined with readlif..
 
